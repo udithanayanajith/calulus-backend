@@ -1,0 +1,6 @@
+# Remove fetch clien
+*.fetch-client
+
+# Remove model
+*.pth
+*.h5
