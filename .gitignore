@@ -2,5 +2,6 @@
 *.fetch-client
 
 # Remove model
+models/
 *.pth
 *.h5
