@@ -2,7 +2,6 @@
 
 Dr. Calculus is an AI-powered educational mobile application designed to make mathematics engaging and accessible for grades 1-5 students. The app combines voice recognition, handwriting analysis, and gamified learning to deliver personalized math education.
 
-Backend for Handwritten Digit Recognition and Voice Transcription body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; } h1, h2, h3 { color: #333; } code { background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: monospace; } pre { background-color: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; } a { color: #007BFF; text-decoration: none; } a:hover { text-decoration: underline; }
 
 # Backend for Handwritten Digit Recognition and Voice Transcription
 
