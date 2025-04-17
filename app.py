@@ -46,6 +46,7 @@ def transcribe():
         try:
             file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
             file.save(file_path)
+            print(file_path)
             wav_path = voice_objects.convert_to_wav(file_path)
             if not wav_path:
                 return jsonify({"error": "Unsupported or corrupted audio file"}), 400
@@ -128,4 +129,4 @@ def digit_predict():
     #     return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(host='192.168.8.162', port=5000)
+    app.run(host='192.168.8.100', port=5000)
